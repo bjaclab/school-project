@@ -1,0 +1,241 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navtop {
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    color: white;
+    flex-wrap: wrap;
+}
+
+.contact {
+    width: 100%;
+    padding: 0px 50px;
+    /* background-color: brown; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.mails {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    /* background-color: red; */
+}
+
+.socials {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+}
+
+.c-us {
+    background-color: rgb(175, 5, 5);
+    padding: 8px;
+}
+
+.navside {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    color: black;
+    flex-wrap: wrap;
+}
+
+.navbar {
+    width: 100%;
+    padding: 0px 50px;
+    /* background-color: brown; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.Logo {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    flex-wrap: wrap;
+}
+
+.logo-span {
+    color: orange;
+}
+
+.pages ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.active {
+    color: blue;
+    border-bottom: 4px solid red;
+}
+
+.Hero {
+    background-color: black;
+    color: white;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+/* .overlay {
+    background-color: black;
+    height: 400px;
+    opacity: 70%;
+} */
+
+.content {
+    width: 100%;
+    /* background-color: brown; */
+    text-align: left;
+    align-content: left;
+    padding: 0px 50px;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 1000px;
+    letter-spacing: 2;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 10px;
+    letter-spacing: 1px;
+}
+
+p {
+    color: gray;
+}
+
+button {
+    padding: 12px 25px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 8%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container-fluid1 {
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    color: black;
+    margin-top: -30px;
+    flex-wrap: wrap;
+}
+
+.container {
+    width: 100%;
+    padding: 0px 50px;
+    /* background-color: brown; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.features {
+    width: 380px;
+    align-content: center;
+    text-align: center;
+
+}
+.feature-class {
+    width: 256px;
+}
+
+img {
+    width: 100%;
+    height: 250px;
+    border-radius: 7px;
+}
+
+details > p {
+    text-align: justify;
+}
+
+.container-fluid {
+    /* background-color: blue; */
+    display: flex;
+    flex-wrap: wrap;
+    color: black;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.container2 {
+    width: 100%;
+    padding: 0px 50px;
+    /* background-color: brown; */
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-content: center;
+    gap: 10%;
+}
+
+.svgabout {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+svg {
+    height: 30px;
+    width: 30px;
+}
+
+.about-sch {
+    align-content: center;
+}
+
+.feature2 {
+    width: 280px;
+    display: flex;
+    gap: 10px;
+    /* justify-items: left; */
+    align-items: center;
+    /* flex-wrap: wrap; */
+}
+
+.svg {
+    padding-bottom: 100px;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+}
+
+strong {
+    font-size: larger;
+}
+
+.carderr {
+    /* background-color: brown; */
+    color: blue;
+    
+}
+
+.class-card {
+    height: 450px;
+    border: 0.5px solid gray;
+    border-radius: 10px;
+}
+
+.lastlink {
+    color: gray;
+}
